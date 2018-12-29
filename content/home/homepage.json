@@ -1,0 +1,22 @@
+{
+  "title": "Home",
+  "content": "intro.md",
+  "gallery": [{
+    "title": "Introduction",
+    "copy": "A general introduction of sorts",
+    "image": "../images/gallery/pune-india.jpg",
+    "link": "https://leslieoa.github.io/"
+  },
+  {
+    "title": "#cryptolife",
+    "copy": "Because: Kieran O'Neill made me",
+    "image": "../images/gallery/crypto-life-prague-2018.jpg",
+    "link": "https://leslieoa.github.io/"
+  },
+  {
+    "title": "Carta",
+    "copy": "(Another) decentralised mobile browser",
+    "image": "../images/gallery/folklore.jpg",
+    "link": "https://leslieoa.github.io/"
+  }]
+}
