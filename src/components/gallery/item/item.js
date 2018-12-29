@@ -8,7 +8,9 @@ const Item = ({ title, copy, image }) => (
   <figure>
     <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
     <figcaption>
-      <Title>{title} <span>(coming soon)</span></Title>
+      <Title>
+        {title} <span>(coming soon)</span>
+      </Title>
       <Copy>{copy}</Copy>
     </figcaption>
   </figure>
