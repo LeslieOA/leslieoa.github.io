@@ -2,12 +2,12 @@
 _A rare website appears_
 
 #### Why?
-I had to simple goals for the end of 2018, to create:
+Late 2018, I had two simple goals:
 
-* a simple (static) website
+* create a simple (static) website
 	* ...that can eventually be home to a articles and projects
 	* ...relatively low maintenance
-* a decentralised (mobile) operating system
+* create a decentralised (mobile) operating system
 	* DAT, IPFS, Ethereum, etc, etc
 	* A personal project to keep me interest for the next few <strike>months</strike> years
 
