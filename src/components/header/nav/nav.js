@@ -5,20 +5,12 @@ import { Container } from './nav.css';
 const Nav = () => (
   <Container>
     <ul>
-      <li>
+      <li className="media-query media-phone">
         <Link to="/">Home</Link>
       </li>
       <li>
         <Link to="/about">About</Link>
       </li>
-      {/*
-      <li>
-        <a href="https://twitter.com/LeslieOA">Twitter</a>
-      </li>
-      <li>
-        <a href="https://github.com/LeslieOA">GitHub</a>
-      </li>
-      */}
     </ul>
   </Container>
 );
