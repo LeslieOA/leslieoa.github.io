@@ -26,7 +26,7 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-c0988e65ab7824df5a8c.js"
+    "url": "webpack-runtime-4a3b850ec8ae4c429379.js"
   },
   {
     "url": "app-2670679fa153bd7c1af7.js"
@@ -36,13 +36,13 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "b10352dc5874321b8a497bb7697ea6c0"
+    "revision": "782444bff766f10498bb11e6c482c48a"
   },
   {
     "url": "0-81eaf7e8cf52a70314cf.js"
   },
   {
-    "url": "component---src-pages-404-js-96321b347c0e6f408086.js"
+    "url": "component---src-pages-404-js-9d721e1c79a4905ecc6c.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
@@ -51,6 +51,10 @@ self.__precacheManifest = [
   {
     "url": "static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json",
     "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
+  },
+  {
+    "url": "manifest.json",
+    "revision": "6acbc538c5c384847773e5040cbd032f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
