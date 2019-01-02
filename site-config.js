@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: `Leslie Owusu-Appiah`,
   siteTitleShort: `LeslieOA`,
   siteDescription: `Some zeros. Mostly one's.`,
-  siteUrl: `https://leslieoa.github.io/`,
+  siteUrl: `https://leslieoa.com/`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,

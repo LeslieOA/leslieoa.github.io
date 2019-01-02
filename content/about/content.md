@@ -2,7 +2,10 @@ A human person.
 
 Currently investing brain-time in decentralised web technologies and the Ethereum blockchain.
 
-I also work for money: [LinkedIn](https://www.linkedin.com/in/leslieoa)
+I also work for money:  
+
+[LinkedIn](https://www.linkedin.com/in/leslieoa)
+
 
 <span title="how 'bout dat">Cash me outside:</span>
 
