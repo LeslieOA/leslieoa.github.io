@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
 
+export const Item = styled.figure`
+  background: rgba(255,255,0,1); 
+  outline: 1px solid red;
+`;
+
 export const Title = styled.span`
   display: block;
   font-size: 2rem;

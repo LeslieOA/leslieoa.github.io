@@ -81,7 +81,7 @@ export default createGlobalStyle`
     border-radius: 5px;
     color: ${accent};
     border: 1px solid #ddd;
-    font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,Courier, monospace;
   }
 
   video {
@@ -91,4 +91,16 @@ export default createGlobalStyle`
   p {
     margin-bottom: 2rem;
   }
+
+  figure.disabled {
+    a {
+      text-decoration: none;
+      color: #757575;
+      cursor: not-allowed;
+    }
+  }
+
 `;
+
+
+// TODO - Move figure.disabled from global styles

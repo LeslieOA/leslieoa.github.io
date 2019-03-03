@@ -4,6 +4,7 @@
   "author": "Leslie Owusu-Appiah <leslie@blank.works>",
   "scripts": {
     "develop": "gatsby develop",
+    "dev": "npm run develop",
     "serve": "gatsby serve",
     "ssr": "npm run build && npm run serve",
     "format": "prettier --config ./.prettierrc --write src/**/*.js",

@@ -2,21 +2,27 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "Introduction",
-    "copy": "A general introduction of sorts",
+    "itemTitle": "Introduction",
+    "title": "It had to have started somewhere...",
+    "copy": "An introduction of sorts",
     "image": "../images/gallery/pune-india.jpg",
-    "link": "/"
+    "link": "/",
+    "external": false
   },
   {
-    "title": "#cryptolife",
-    "copy": "Because: Kieran O'Neill made me",
+    "itemTitle": "#cryptolife",
+    "title": "Replace the name 'Moses' with 'Kieran O'Neill' and 'Old Testament' with 'Ethereum Blockchain'",
+    "copy": "My immersion into the Ethereum community under the guidance of Kieran O'Neill",
     "image": "../images/gallery/crypto-life-prague-2018.jpg",
-    "link": "/"
+    "link": "/",
+    "external": false
   },
   {
-    "title": "Carta",
-    "copy": "(Another) decentralised mobile browser",
+    "itemTitle": "Carta",
+    "title": "Or? A decentralised web browser/OS for the next 10 years. Who knows...", 
+    "copy": "(Another) decentralised (mobile browser",
     "image": "../images/gallery/folklore.jpg",
-    "link": "/"
+    "link": "/",
+    "external": false
   }]
 }

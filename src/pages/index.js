@@ -34,8 +34,11 @@ export const query = graphql`
         }
       }
       gallery {
-        title
+        itemTitle
         copy
+        title
+        link
+        external
         image {
           childImageSharp {
             fluid(maxHeight: 500, quality: 90) {
