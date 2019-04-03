@@ -8,6 +8,9 @@ const Nav = () => (
       <li className="media-query media-phone">
         <Link to="/">Home</Link>
       </li>
+      <li className="media-query media-phone">
+        <Link to="/projects">Projects</Link>
+      </li>
       <li>
         <Link to="/about">About</Link>
       </li>
