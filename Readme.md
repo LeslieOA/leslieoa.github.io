@@ -17,5 +17,5 @@ Late 2018, I had two simple goals:
 
 #### Okay...
 
-I''m slowly, but surely accepting GitHub over GitLab and BitBucket.  
+I'm slowly but surely accepting GitHub over GitLab/BitBucket.  
 Based on [Gatsby Universal](https://github.com/fabe/gatsby-universal)
