@@ -13,7 +13,3 @@ I also work for money:
 * [Peepeth](https://peepeth.com/Leslie)
 * [GitHub](https://github.com/LeslieOA)
 
-
-&nbsp;&nbsp;&nbsp;
-
-Note: this site is (temporarily) _<span title="I'm testing out Matomo Analytics for a few weeks. Sorry.">tracking you</span>_, and I'm [not even sorry](https://gdpr-info.eu/art-2-gdpr/).
