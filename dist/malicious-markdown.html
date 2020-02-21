@@ -1,0 +1,49 @@
+undefined
+<!doctype html>
+<html>
+
+<head>
+	<title>Malicious Markdown</title>
+	<meta name="keywords" content="" />
+	<meta name="" content="" />
+	<meta name="" content="" />
+	<link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body data-template="default">
+	<header>
+		<nav>
+			<ul>
+				<li><a href="/example.html">Example</a></li>
+				<li><a href="/formal-markdown.html">Formal Markdown</a></li>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/malicious-markdown.html">Malicious Markdown</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h1>Malicious Markdown</h1>
+	<small>16/02/2020 18:01</small>
+	<main>
+		Where bad things happen
+		<blockquote>
+			<p>Let's sanitise markdown, just in-case... </p>
+		</blockquote>
+		Attack 1
+		<p>&lt;img src=x onerror=alert(1) //&gt;</p>
+		Attack 2
+		<p>&lt;g/onload=alert(2)&gt;//<p></p>
+			Attack 3
+			<p>abc<iframe>def</iframe></p>
+
+			<p>--</p>
+			<p>See <a href="https://github.com/cure53/DOMPurify#some-purification-samples-please">Some purification samples please?</a></p>
+		</p>
+	</main>
+	<footer>
+		<ul>
+			["rce"," js"]
+		</ul>
+	</footer>
+</body>
+
+</html>
