@@ -1,0 +1,150 @@
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/assets/fonts/manrope/Manrope-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("/assets/fonts/manrope/Manrope-VariableFont_wght.ttf") format("truetype");
+  font-weight: 200 800;
+}
+
+
+body,
+body.fade-in {
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+body.fade-out {
+  opacity: 1;
+  animation-name: fade-out;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;  
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+
+body {
+  margin: max(3.6%, 70px) max(4%, 80px); 
+  padding: 0;
+  cursor: default;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a {
+  font-family: "Manrope", sans-serif;
+  color: rgb(90,90,90);
+  font-weight: 450;
+  /* font-size: calc(28px + (52 - 28) * ((200vw - 600px) / (3200 - 600))); */
+  line-height: max(90px, 4.8vw);
+  font-size: max(66px, 3.8vw);
+  display: inline-block;
+  padding: 0;
+  margin: 0; 
+  orphans: 0;
+  widows: 0;
+}
+
+h1, h1 span {
+  color: rgb(0,0,0);
+}
+
+a, a:visited, a:active, a:hover {
+  cursor: pointer;
+}
+
+ul {
+  margin-left: 1.75ch;
+}
+ul li {
+  display: list-item;
+  font-size: max(66px, 3.8vw);
+  list-style-type: "\2013";
+  padding-inline-start: 1ch;
+  color: rgb(90,90,90);
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 1rem 0 0;
+}
+
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 250ms;
+  transition-property: opacity;
+  transition-timing-function: ease-in-out; 
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
+}
+
+.tba {
+  cursor: not-allowed !important;
+}
+.no {
+  opacity: .75 !important;
+  text-decoration: line-through !important;
+}
+
+/**
+ * Icons
+ */
+[data-icon="globe"]::after {
+  content: " 🌐";
+}
+[data-icon="research"]::after {
+  content: " 📚";
+}
+[data-icon="development"]::after {
+  content: " 🛠";
+}
+[data-icon="peace"]::after {
+  content: " ✌️";
+}
+[data-icon="contact"]::after {
+  content: " 📡";
+}
+
+
+
+/**
+ * Templates
+ */
+
+main[data-template="index"] {
+
+}
+
+
+
+
+main[data-template="default"] {
+
+}
