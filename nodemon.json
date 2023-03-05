@@ -1,0 +1,18 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "verbose": true,
+  "events": {
+    "restart": "osascript -e 'display notification \"Recompiling:\n'$FILENAME'\" with title \"Static\"'"
+  },
+  "exec": "./node_modules/.bin/ts-node",
+  "watch": [
+    "src/*",
+    "content/*",
+    "public/*"
+  ],
+  "ext": "ts js json css md markdown"
+}

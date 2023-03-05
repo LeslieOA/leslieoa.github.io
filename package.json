@@ -1,21 +1,55 @@
 {
-  "name": "leslieoa-2020",
+  "name": "leslieoa.github.io",
   "version": "0.1.0",
-  "main": "index.js",
-  "license": "MIT",
+  "private": true,
   "scripts": {
-    "dev": "nodemon -r esm index.js"
+    "develop": "nodemon index.ts",
+    "backup-develop": "nodemon --watch '*.ts' --exec 'ts-node' index.ts",
+    "build:new": "nodemon --watch '*.ts' --exec 'ts-node' index.ts",
+    "build": "tsc -p .",
+    "deploy": "gh-pages -d dist",
+    "deploy:build": "npm run build && gh-pages -d dist",
+    "test": "echo \"Nope\"",
+    "lint": "echo \"Nada\""
   },
   "dependencies": {
-    "date-fns": "^2.9.0",
-    "esm": "^3.2.25",
-    "front-matter": "^3.1.0",
-    "js-beautify": "^1.10.3",
-    "jsdom": "^16.2.0",
-    "live-server": "^1.2.1",
-    "marked": "^0.8.0",
-    "nodemon": "^2.0.2",
-    "sanitize-html": "^1.21.1",
-    "xss": "^1.0.6"
-  }
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^2.2.2",
+    "@types/fs-extra": "^9.0.11",
+    "@types/jest": "^26.0.23",
+    "@types/js-beautify": "^1.13.1",
+    "@types/jsdom": "^16.2.11",
+    "@types/marked": "^2.0.3",
+    "date-fns": "^2.22.1",
+    "dompurify": "^2.2.9",
+    "fs-extra": "^10.0.0",
+    "gh-pages": "^3.2.3",
+    "gray-matter": "^4.0.3",
+    "jest": "^27.0.4",
+    "js-beautify": "^1.14.0",
+    "jsdom": "^16.6.0",
+    "marked": "^2.1.1",
+    "nodemon": "^2.0.7",
+    "superstatic": "^7.1.0",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  },
+  "description": "LeslieOA's website",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeslieOA/leslieoa.github.io.git"
+  },
+  "author": "LeslieOA <leslie@localhost.international>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/LeslieOA/leslieoa.github.io/issues"
+  },
+  "homepage": "https://github.com/LeslieOA/leslieoa.github.io#readme"
 }
