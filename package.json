@@ -5,7 +5,7 @@
   "scripts": {
     "develop": "nodemon index.ts",
     "build": "nodemon --watch '*.ts' --exec 'ts-node' index.ts",
-    "deploy": "npm run build && gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Nope\"",
     "lint": "echo \"Nada\""
   },
