@@ -6,6 +6,7 @@
     "develop": "nodemon index.ts",
     "build": "nodemon --watch '*.ts' --exec 'ts-node' index.ts",
     "deploy": "gh-pages -d dist",
+    "deploy:clean": "gh-pages-clean",
     "test": "echo \"Nope\"",
     "lint": "echo \"Nada\""
   },
