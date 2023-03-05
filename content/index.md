@@ -7,21 +7,32 @@ description: LeslieOA
 ---
 
 <h1>
-  <span data-icon="globe" title="Leslie Owusu-Appiah's homepage">LeslieOA</span>&nbsp;
+  <span data-icon="peace" title="Leslie Owusu-Appiah's homepage">Leslie Owusu-Appiah</span>&nbsp;
 </h1>
+<br /><br />
+
 <h3>
-  See <a href="/projects">projects</a> for a mobile web browser.
-</h3>
-<h3>
-  Working on <span data-icon="development"><a href="/experiments" class="tba">experiments</a>.</span>
-</h3>
-<h3>
- Really should write a <span data-icon="research"><a href="/journal">journal</a>. </span>
-</h3>
-<h3>
-  Want to <a href="/work">work</a> together?
+  <a href="/experiments">Experiments</a>
 </h3>
 <br />
 <h3>
-  <span data-icon="peace">Get in <a href="https://twitter.com/LeslieOA">contact</a>.</span>
+  <a href="/projects">Projects</a>
+</h3>
+<br />
+<h3>
+  <a href="/words">Words</a>
+</h3>
+<br />
+<h3>
+  <a href="/readme">Readme</a>
+</h3>
+<br /><br />
+
+<br />
+<h3>
+  <span data-icon="contact">
+    <a href="https://twitter.com/LeslieOA">Twitter</a>, 
+    <a href="https://mastodon.social/@leslieoa">Mastodon</a>, 
+    <a href="mailto:leslieoa@pm.me">Email</a>
+  </span>
 </h3>

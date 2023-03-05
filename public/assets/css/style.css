@@ -76,6 +76,17 @@ a, a:visited, a:active, a:hover {
   cursor: pointer;
 }
 
+ul {
+  margin-left: 1.75ch;
+}
+ul li {
+  display: list-item;
+  font-size: max(66px, 3.8vw);
+  list-style-type: "\2013";
+  padding-inline-start: 1ch;
+  color: rgb(90,90,90);
+}
+
 nav a {
   text-decoration: none;
   margin: 0 1rem 0 0;
@@ -116,6 +127,9 @@ nav a {
 }
 [data-icon="peace"]::after {
   content: " ✌️";
+}
+[data-icon="contact"]::after {
+  content: " 📡";
 }
 
 
