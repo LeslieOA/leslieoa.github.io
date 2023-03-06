@@ -61,11 +61,14 @@ h1, h2, h3, h4, h5, h6, p, span, a {
   /* font-size: calc(28px + (52 - 28) * ((200vw - 600px) / (3200 - 600))); */
   line-height: max(90px, 4.8vw);
   font-size: max(66px, 3.8vw);
-  display: inline-block;
   padding: 0;
   margin: 0; 
   orphans: 0;
   widows: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  display: inline-block;
 }
 
 h1, h1 span {

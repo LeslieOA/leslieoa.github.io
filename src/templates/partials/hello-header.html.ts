@@ -1,5 +1,5 @@
 export const template = () => {
-	return `<!--
+  return `<!--
 																																					
 	LeslieOA
 
@@ -25,6 +25,5 @@ export const template = () => {
 
 	LeslieOA ${`${new Date().getFullYear()}`}
 
--->`
-}
-
+-->`;
+};
