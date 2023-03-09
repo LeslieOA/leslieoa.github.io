@@ -8,6 +8,6 @@ description: LeslieOA's Experiments
 
 <ul>
 	<li>
-		<a href="https://codesandbox.io/s/baselets-boe8nd" title="Offline progressive web applications in data URIs" target="_blank">Baselets</a>
+		<a href="https://boe8nd.csb.app/" title="Offline progressive web applications in data URIs" target="_blank">Baselets</a>
 	</li>
 </ul>
