@@ -2,7 +2,7 @@ const superstatic = require("superstatic").server;
 
 import { Config } from "./@types/config";
 
-export default function server(serverConfig: Config) {
+export default function init(serverConfig: Config) {
   const config = serverConfig;
 
   const app = superstatic({
