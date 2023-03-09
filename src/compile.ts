@@ -14,7 +14,8 @@ const pages: Pages = {
   markdown: [],
 };
 
-export default function compile() {
+export default function() {
+  console.log("compile")
   readdir(config.paths.content)
     .then((files: any) => {
       files = files.filter((file: string) =>
@@ -25,7 +26,7 @@ export default function compile() {
         pages.markdown.forEach((page: Page) => {
           store(page)
             .then((file: any) => {
-              console.log("store::then - Successful", file.fileDist);
+              console.log("store", file.fileDist);
             })
             .catch((err) => {
               console.log(err);
@@ -34,6 +35,6 @@ export default function compile() {
       });
     })
     .catch((err) => {
-      console.log("Error", err);
+      console.log("error", err);
     });
 }
