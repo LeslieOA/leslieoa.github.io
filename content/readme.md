@@ -3,13 +3,13 @@ title: Readme
 slug: readme
 tags: readme
 template: default
-description: LeslieOA's Information
+description: Information about Leslie Owusu-Appiah
 ---
 
-Allo.
+Hello.
 <br />
 
-<p>Leslie Owusu-Appiah is a human person, currently investing brain-time in <a href="https://localhost.international/">decentralised and distributed technologies</a>.</p>
+<p>Leslie Owusu-Appiah plans and builds modern applications and services, with a focus on <a href="https://localhost.international/">decentralised and distributed technologies</a>.</p>
 <br />
 
-<a href="https://www.linkedin.com/in/leslieoa">Will also work for money</a>.
+<a href="https://www.linkedin.com/in/leslieoa">Connect with me on LinkedIn</a>.
