@@ -1,0 +1,17 @@
+[
+	{
+		"label": "LinkedIn",
+		"uri": "https://linkedin.com/in/leslieoa",
+		"title": "Link to Leslie's LinkedIn"
+	},
+	{
+		"label": "Twitter",
+		"uri": "https://x.com/leslieoa",
+		"title": "Link to Leslie's Twitter/X"
+	},
+	{
+		"label": "Email",
+		"uri": "mailto:leslieoa@pm.me",
+		"title": "Mail compose link to email Leslie"
+	}
+]
